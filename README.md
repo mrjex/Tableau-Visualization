@@ -2,16 +2,16 @@
 
 I worked on this project during August 2024 to gain knowledge about data visualization and business intelligence. For this project, I used `MYSQL Workbench` to manage the data and `Tableau` to visualize it. I used MySQL and connected the database to Tableau using a datamodel to define relations between the tables.
 
-![sql-queries](readme-gifs/1. mysql-queries.mp4)
+![sql-queries](readme-gifs/1.%20mysql-queries.mp4)
 
-![tableau-features](readme-gifs/2. tableau-features.mp4)
+![tableau-features](readme-gifs/2.%20tableau-features.mp4)
 
 ## Project - Delivery
 
 A dashboard that provides latest sales insights to support data-driven decision making. It is interactable and allows you to exclude the categories that don't concern your current problem you're trying to solve.
 
 *Architecture:*
-![architecture](readme-pictures/A. Architecture.PNG)
+![architecture](readme-pictures/A.%20Architecture.PNG)
 
 As shown in the demo video above, the Tableau dashboard is divided in 5 main sections:
 
@@ -65,10 +65,10 @@ This was my first time working with this software. Below I've listed the things 
 - A concept commonly used to define relationships between tables in the same database in Tabluea
 
 *Star Schema Template that I followed:*
-![star-schema-1](readme-pictures/ZZ. Star-Schema-Data-Model.PNG)
+![star-schema-1](readme-pictures/ZZ.%20Star-Schema-Data-Model.png)
 
 *Implemented Star Schema:*
-![star-schema-2](readme-pictures/ZZZ. Star-Schema-Implementation.PNG)
+![star-schema-2](readme-pictures/ZZZ.%20Star-Schema-Implementation.PNG)
 
 ### Foreign keys
 
@@ -76,7 +76,7 @@ As opposed to primary keys that are unique identifiers within its table, foreign
 
 
 *MYSQL Workbench Tables:*
-![mysql-tables](readme-pictures/ZZ. DB-Tables.PNG)
+![mysql-tables](readme-pictures/ZZ.%20DB-Tables.PNG)
 
 
 ### Data cleaning
@@ -87,11 +87,11 @@ In Data Science, the concept of cleaning data before using it is imperative. Whe
 
 As I retrieved the public dataset and inspected it in Tableau, I noticed illogical values on a few instances. The value of a column was -1, which is a logical fallacy. It would imply that a store gives the customers money for consuming their products, instead of the other way around.
 
-![data-cleaning-1](readme-pictures/X. Data Cleaning1.PNG)
+![data-cleaning-1](readme-pictures/X.%20Data%20Cleaning1.PNG)
 
 I understood that these will contribute to inaccuracy, and removed them
 
-![data-cleaning-2](readme-pictures/X. Data Cleaning2.PNG)
+![data-cleaning-2](readme-pictures/X.%20Data%20Cleaning2.PNG)
 
 #### Currencies conversion
 
@@ -99,9 +99,9 @@ Another aspect of the SQL database that I used that wasn't consistent was the di
 
 In this case, for the purpose of learning Tableua I wrote a function in the platform with a fixed multiplier value to transition between the currencies. I looked up the rate between USD and INR at the particular day when I was developing this project and noticed that the multiplier was 73.59. Lastly, I simply used an non-decimal approximation (74) in the function.
 
-![curreny-conversion-1](readme-pictures/Y. Currency Convert1.PNG)
+![curreny-conversion-1](readme-pictures/Y.%20Currency%20Convert1.PNG)
 
-![curreny-conversion-2](readme-pictures/Y. Currency Convert2.PNG)
+![curreny-conversion-2](readme-pictures/Y.%20Currency%20Convert2.PNG)
 
 
 I decided to go with INR over USD. As I googled the relative exchange rate, I noticed that is was 73.59 at the given date.
@@ -121,7 +121,7 @@ I was now faced with two possible approaches:
 
 
 *Implemented Dashboard:*
-![dashboard-complete](readme-pictures/Z. Dashboard-Complete.PNG)
+![dashboard-complete](readme-pictures/Z.%20Dashboard-Complete.PNG)
 
 
 ### Contextual Filter
