@@ -36,6 +36,7 @@ Watch our data pipeline and visualization features in action:
 Our interactive dashboard provides real-time sales insights supporting data-driven decision making. The system allows dynamic filtering and category-based analysis.
 
 ### 🏗 Architecture
+
 ![architecture](readme-pictures/A.%20Architecture.PNG)
 
 ### 📊 Dashboard Components
@@ -85,14 +86,12 @@ Our interactive dashboard provides real-time sales insights supporting data-driv
 ### 🎯 Quality Attributes
 
 1. **Usability**
-   - Filter location < 1.5s (80% success rate)
    - Intuitive interface design
    - Responsive controls
 
 2. **Performance**
    - Query execution < 5.0s
    - Real-time updates
-   - Optimized data loading
 
 ### 👥 Stakeholders
 - Sales Director
@@ -116,7 +115,6 @@ Implemented a star schema data model for optimal relationship management:
 #### Invalid Data Handling
 - Identified and removed illogical values (-1 in sales)
 - Implemented validation checks
-- Maintained data integrity
 
 ![data-cleaning-1](readme-pictures/X.%20Data%20Cleaning1.PNG)
 ![data-cleaning-2](readme-pictures/X.%20Data%20Cleaning2.PNG)
@@ -127,10 +125,8 @@ Implemented currency conversion with two approaches:
 1. **Static Conversion**
    - Hardcoded exchange rates
    - Quick implementation
-   - Suitable for POC
 
 2. **Dynamic Conversion**
-   - API-based exchange rates
    - Real-time updates
    - Production-ready solution
 
@@ -141,6 +137,7 @@ Implemented currency conversion with two approaches:
 ![dashboard-complete](readme-pictures/Z.%20Dashboard-Complete.PNG)
 
 ### 🔄 ETL Pipeline
+
 Implemented a robust ETL process:
 - **Extract**: Raw data acquisition
 - **Transform**: Data cleaning and standardization
