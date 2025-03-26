@@ -27,9 +27,16 @@ This project, developed during August 2024, focuses on creating interactive busi
 
 Watch our data pipeline and visualization features in action:
 
-![sql-queries](readme-gifs/1.%20mysql-queries.mp4)
 
-![tableau-features](readme-gifs/2.%20tableau-features.mp4)
+*Tableau Project Features Demo:*
+
+[![MySQL Project Demo](https://img.youtube.com/vi/PvdOdBvPqyU/maxresdefault.jpg)](https://www.youtube.com/watch?v=PvdOdBvPqyU)
+
+
+*MySQL Queries - Demo:*
+
+[![MySQL Project Demo](https://img.youtube.com/vi/4MZ1t7peEaA/maxresdefault.jpg)](https://www.youtube.com/watch?v=4MZ1t7peEaA)
+
 
 ## 📈 Project Delivery
 
@@ -37,7 +44,7 @@ Our interactive dashboard provides real-time sales insights supporting data-driv
 
 ### 🏗 Architecture
 
-![architecture](readme-pictures/A.%20Architecture.PNG)
+![architecture](readme-material/A.%20Architecture.PNG)
 
 ### 📊 Dashboard Components
 
@@ -105,10 +112,10 @@ Our interactive dashboard provides real-time sales insights supporting data-driv
 Implemented a star schema data model for optimal relationship management:
 
 *Template Design:*
-![star-schema-1](readme-pictures/ZZ.%20Star-Schema-Data-Model.png)
+![star-schema-1](readme-material/ZZ.%20Star-Schema-Data-Model.png)
 
 *Implementation:*
-![star-schema-2](readme-pictures/ZZZ.%20Star-Schema-Implementation.PNG)
+![star-schema-2](readme-material/ZZZ.%20Star-Schema-Implementation.PNG)
 
 ### 🧹 Data Cleaning
 
@@ -116,8 +123,8 @@ Implemented a star schema data model for optimal relationship management:
 - Identified and removed illogical values (-1 in sales)
 - Implemented validation checks
 
-![data-cleaning-1](readme-pictures/X.%20Data%20Cleaning1.PNG)
-![data-cleaning-2](readme-pictures/X.%20Data%20Cleaning2.PNG)
+![data-cleaning-1](readme-material/X.%20Data%20Cleaning1.PNG)
+![data-cleaning-2](readme-material/X.%20Data%20Cleaning2.PNG)
 
 #### Currency Standardization
 Implemented currency conversion with two approaches:
@@ -130,11 +137,11 @@ Implemented currency conversion with two approaches:
    - Real-time updates
    - Production-ready solution
 
-![curreny-conversion-1](readme-pictures/Y.%20Currency%20Convert1.PNG)
-![curreny-conversion-2](readme-pictures/Y.%20Currency%20Convert2.PNG)
+![curreny-conversion-1](readme-material/Y.%20Currency%20Convert1.PNG)
+![curreny-conversion-2](readme-material/Y.%20Currency%20Convert2.PNG)
 
 ### 📊 Final Dashboard
-![dashboard-complete](readme-pictures/Z.%20Dashboard-Complete.PNG)
+![dashboard-complete](readme-material/Z.%20Dashboard-Complete.PNG)
 
 ### 🔄 ETL Pipeline
 
