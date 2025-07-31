@@ -5,6 +5,7 @@
 [![Tableau](https://img.shields.io/badge/Tableau-2023.2-blue)](https://www.tableau.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)](https://www.mysql.com/)
 
+![Teaser](readme-material/teaser.png)
 
 ## Table of Contents
 - [Data Visualization Project - Tableau](#data-visualization-project---tableau)
